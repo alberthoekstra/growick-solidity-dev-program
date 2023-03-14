@@ -14,7 +14,7 @@ contract Modifiers {
     event userDetailsChanged(address account, string name, uint age);
     event balanceChanged(address account, uint balance);
 
-    uint private constant Fee = 5;
+    uint8 private constant Fee = 5;
     error AmountToSmall();
 
     constructor() {
